@@ -1,0 +1,125 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body {
+	background-color: #8E8CFC95;
+  background-image: url(../Images/job.jpg);
+  background-repeat: no-repeat;
+  background-blend-mode: saturation;
+	background-size: 100%;
+	zoom:100%;
+	padding: 0;
+	margin: 0;
+}
+
+main {
+	font-family:Courgette;
+}
+
+main form {
+	width: 280px;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	border:solid 2px #F9A36B82;
+	/*border:hidden;*/
+	/*background-color: #E02E73;*/
+	border-radius: 20px;
+	padding:50px;
+	padding-top: 10px;
+	top: 50%;
+	left: 76.6%;
+}
+
+form h1{
+	color: #4F0433;
+	font-size: 40px;
+	margin-bottom: 40px;
+	padding: 15px 0;
+	width: 106px;
+	border-bottom: solid 6px #f7a196;
+	text-align: center;
+}
+
+::placeholder{
+	color: #4F0433;
+	font-family: Quicksand Medium;
+}
+
+.infs {
+	width: 90%;
+	padding: 15px 0;
+	margin: 8px 0;
+	font-size: 20px;
+	overflow: hidden;
+	border-bottom: 1px solid #f7a196;
+}
+
+.infs input {
+	border:none;
+	outline:none;
+	background:none;
+	color:#4F0433;
+	font-size: 14px;
+	width: 80%;
+}
+
+.btn input{
+	width: 60%;
+	background:none;
+	transition-duration: 0.4s;
+	border: 2px solid #f7a196;
+	color: #4F0433;
+	padding: 5px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	font-size: 16px;
+	cursor: pointer;
+	margin: 18px 0;
+	margin-bottom: 15px;
+	font-weight: bold;
+	font-family: Courgette;
+}
+
+.btn input:hover {
+  background-color: #4F0433;
+  color: white;
+}
+
+#forget{
+	width: 50%;
+	border:hidden;
+	border-radius: 10px;
+	background-color: #4F04332e;
+	padding: 5px;
+	margin-top: 2.5em;
+	font-size: 14px;
+	text-align: center;
+	cursor: pointer;
+	margin-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#forget a{
+	color: #4F0433;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#wall{
+	padding: 0;
+	margin-bottom: -5px;
+	height: 100%;
+}
+
+form i{
+	font-size: 20px;
+	float: left;
+	text-align: center;
+	color: #F9A36B;
+	text-shadow: 5px 5px 5px black;
+}
+
+#ki{
+	font-size: 17px;
+}

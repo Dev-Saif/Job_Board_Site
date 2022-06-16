@@ -1,0 +1,325 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body{
+	padding: 0;
+	margin: 0;
+	background-size: 100%;
+	background-color: #8E8CFC95;
+  	background-image: url(../Images/job.jpg);
+  	background-repeat: no-repeat;
+  	background-blend-mode: saturation;
+}
+header{
+	width: 100%;
+	padding-top: 2em;
+}
+
+#btn1{
+	background-color: #1F2B45;
+	color: white;
+	cursor: pointer;
+	font-family: Courgette;
+	margin-left: 5px;
+	border-radius: 5px;
+	font-size: 14px;
+	padding: 1em 2em;
+}
+
+.log-menu{
+	float: right;
+	list-style: none;
+	display: inline-flex;
+}
+
+#btn2 {
+  	transition-duration: 0.4s;
+  	border: 2px solid #1F2B45;
+  	margin-left: 5px;
+	border-radius: 5px;
+	font-size: 14px;
+	padding: 1em 2em;
+	margin-left: 5em
+}
+
+#btn2:hover {
+  background-color: #8E8CFC;
+  color: white;
+}
+
+@keyframes example {
+  0% {color:#1C2840 ;}
+  25% {color: #563290;}
+  50% {color: #5CB7F5;}
+  75% {color: #4F0433;}
+  100% {color: white;}
+}
+
+strong{
+	color: yellow;
+	text-shadow: yellow 1px 1px 1px;
+}
+
+/* Style the search field */
+form #search {
+  font-size: 17px;
+  height: 3em;
+  width: 30em;
+  border-radius: 50px;
+  border: none;
+  background: #f1f1f1;
+  margin-left: 1.2em;
+  padding: 0;
+  text-align: center;
+}
+
+.i{
+	background-color:#1F2B45;
+	color: white;
+	border-radius: 50px;
+	padding: 0.5em;
+	padding-bottom: 0.77em;
+	font-size: 1.6em;
+	width: 1.9em;
+	display: inline;
+	height: 3em;
+}
+
+/* Style the submit button */
+form.example button {
+  width: 20%;
+  height: 3em;
+  margin: 6px;
+  background: #34A894;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  display: inline;
+  border: none;
+  border-radius: 5px;
+}
+
+form.example input{
+  width: 20%;
+  height: 1.8em;
+  margin: 6px;
+  padding: 10px;
+  font-size: 17px;
+  cursor: pointer;
+  display: inline;
+  border: none;
+  border-radius: 5px;
+}
+
+b{
+  font-family: Arial Rounded MT;
+  padding-left: 1em;
+}
+
+form.example button:hover {
+  background: #5CB4F3;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+}
+
+#h1{
+	font-family: Lemon;
+	color: white;
+	text-decoration: none;
+	display: inline;
+	float: left;
+	padding-top: 0.3em;
+	padding-left: 18px;
+	font-size: 1.4em;
+	animation-name: example;
+  	animation-duration: 15s;
+  	animation-iteration-count: infinite;
+}
+
+.td{
+	display: inline;
+}
+.td button{
+	display: inline;
+	font: 8px Arial Rounded MT;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+	width: 8%;
+  	height: 2.5em;
+  	margin: 2px;
+  	font-size: 12px;
+  	cursor: pointer;
+  	border: 2px solid white;
+  	background-color: #ffffff22;
+  	border-radius: 5px;
+}
+
+.td button:hover{
+	background-color: white;
+	color: #34A894;
+}
+
+#main_board p{
+	font: 0.5cm Arial Rounded MT;
+	color: white;
+	text-align: center;
+}
+
+#main_board h1{
+	font: 3em Arial Rounded MT;
+	color: white;
+	text-align: center;
+	width: 100%;
+	margin-top: 1.2em;
+	text-shadow: 4px 4px 4px black;
+}
+
+#lock{
+	display: inline-block;
+	color: white;
+	font-size: 20px;
+	padding-left: 62em;
+	margin-top: 13px;
+	margin-left: -6px;
+	position: absolute;
+}
+
+.stats{
+	background-color: #34A89495;
+  	background-image: url("../Images/blog.jpg");
+  	background-repeat: no-repeat;
+	height: 26em;
+	zoom:90%;
+	text-align: center;
+}
+
+.stats h2{
+	text-align: center;
+	font-family: Imprint MT Shadow;
+	font-size: 2.5rem;
+    font-weight: 900;
+    color: #fff; 
+    padding-top: 1em;
+}
+
+.stats p{
+	text-align: center;
+	font-family: Kalam;
+	font-size: 1.3em;
+	color: #fff;
+	padding-bottom: 3.1em;
+}
+.stats label{
+	font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    display: block;
+    
+}
+.number div{
+    font-size: 3.2rem;
+    font-weight: 900;
+    font-family: Arial Rounded MT;
+    color: #fff; 
+    display: block;
+    float: left;
+}
+.number{
+	padding-left: 9em;
+}
+
+.apps{
+	background-size: 100%;
+	background-color: #0000ffef;
+  	background-image: url(../Images/job.jpg);
+  	background-repeat: no-repeat;
+  	background-blend-mode: saturation;
+  	text-align: center;
+  	margin: 0;
+  	height: 32.3em;
+  	padding-top: 3em;
+}
+.apps div{
+	display: inline;
+	float: left;
+	flex: all;
+}
+.apps h2{
+	text-align: center;
+	font-family: Arial;
+	font-size: 2.5rem;
+    color: #fff; 
+    padding-left: 2em;
+    padding-top: 3em;
+}
+#shop{
+  	height: 3em;
+  	width: 10%;
+  	border: none;
+  	border-radius: 5px;
+  	cursor: pointer;
+  	font-size: 16px;
+	text-align: center;
+  	padding: 0;
+  	margin: 6px;
+  	margin-top: 20px;
+}
+#shop a{
+	text-decoration: none;
+}
+aside button{
+	color: white;
+  	background-color: #333333;
+}
+aside button:hover{
+	background-color: #222222;
+}
+footer{
+	background-color: #555555;
+	color: #ccc;
+	text-align: center;
+	padding-top: 6em;
+	padding-bottom: 7em;
+	font-family: Arial Unicode MS;
+	font-weight: normal;
+}
+
+footer table{
+	width: 85%;
+	padding-bottom: 5em;
+}
+
+footer table td{
+	text-align: left;
+	padding-left: 7.5em;
+	color: white;
+}
+
+#my{
+	color: #ccc;
+}
+
+footer a{
+	text-decoration: none;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+table i{
+	background-color: #351984;
+	color: white;
+	border-radius: 90px;
+	padding: 0.8em;
+	margin-left: 2px;
+}
+
+#social i:hover{
+	background-color: white;
+	color: #351984;
+}
